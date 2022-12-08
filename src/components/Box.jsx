@@ -10,7 +10,7 @@ function Box(){
 
     return(
         <div>
-            <div className="box">
+            <div className="box" style={{backgroundColor: colorbg}}>
                 <h1>{colorbg}</h1>
             </div>
             
