@@ -1,0 +1,23 @@
+.box{
+    margin-top: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30rem;
+    height: 30rem;
+    border: 3px solid #000;
+    border-radius: 10px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.4);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.4);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.4);
+}
+
+.input-text{
+    margin-top: 7rem;
+    width: 30rem;
+    height: 1.5rem;
+    border: 1px solid #000;
+    border-radius: 10px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.4);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.4);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.4);
+}
