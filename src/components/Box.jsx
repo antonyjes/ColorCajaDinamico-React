@@ -6,12 +6,12 @@ function Box(){
 
     const cambiarColor = (e) => {
         setColorbg(e.target.value);
-    }
+    }    
 
     return(
         <div>
             <div className="box" style={{backgroundColor: colorbg}}>
-                <h1>{colorbg}</h1>
+                <h1 style={{color: colorbg === 'black' ? 'white' : 'black'}}>{colorbg}</h1>
             </div>
             
             <input type="text" className='input-text' name='color-bg' onChange={cambiarColor}/>
